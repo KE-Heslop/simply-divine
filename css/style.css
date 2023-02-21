@@ -9,6 +9,68 @@ body {
   line-height: 1.5;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-size: cover;
+  background: rgb(47, 20, 20);
+}
+
+header h1 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 20%;
+  background-color: gold;
+}
+
+header nav {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header a {
+  color: gold;
+
+}
+header a:hover{
+  color: red}
+
+.hero-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-size: cover;
+  background-image: url("../images/cocaohero.jpeg");
+}
+.hero-banner img{
+  width: 20%;
+  border-color: gold;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.hero-text {
+  display:flex;
+  flex-wrap: wrap;
+  width: 40%;
+  align-items: flex-end;
+  text-align: center;
+  color: gold;
+  
+  
+}
+.hero-text h2{
+  background-color: rgba(59, 9, 9, 0.901);
+  
+}
+
 h1,
 h2,
 h3,
