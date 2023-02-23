@@ -71,6 +71,53 @@ header a:hover{
   
 }
 
+/*styling for the sections*/
+
+.page-section h2 {
+  font-size: 48px;
+  border-right: 5px solid ;
+  border-color: red;
+  min-height: 100%;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 20%;
+  max-width: 20%;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 30px;
+}
+
+
+#about p {
+  font-size: 20px;
+  padding: 20px 30px;
+  line-height: 1.6;
+  width: 90%;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-top: 30px;
+
+}
+#contact nav {
+  width: 90%;
+  padding: 20px 30px;
+  font-size: 30px
+}
+
+#contact nav a {
+  color: rgba(59, 9, 9, 0.901);
+
+}
+#contact nav a:hover{
+  color: red}
 h1,
 h2,
 h3,
