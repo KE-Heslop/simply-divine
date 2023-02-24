@@ -11,7 +11,7 @@ A simple CSS and HTML portfolio website to give potential employers a taster of 
 
 ## Functionality Demo
 Watch this video to see how to explore this portfolio
-
+portfolio.mov
 ## Deployed link:
 GitHub pages: https://ke-heslop.github.io/simply-divine/
 
