@@ -157,7 +157,18 @@ header a:hover{
   grid-row: span 1;
   background-image: url("../images/QIH.png");
 }
+/*project title styles*/
+.project-title {
+  color: gold;
+  padding: 10px;
+}
 
+#project2 p {
+  color: rgb(90, 26, 26)
+}
+#project2 h3 {
+  color: rgb(90, 26, 26)
+}
 
 /*styling for the contact*/
 #contact {
@@ -183,3 +194,67 @@ header a:hover{
 #contact nav a:hover{
   color: red}
 
+/*MEDIA QUERIES*/
+/*media queries*/
+  
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: space-around;
+  }
+
+  .hero-banner {
+    min-height: 10vh;
+  }
+
+  .hero-banner img {
+    min-height: none;
+  }
+
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 4px solid red;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+
+#contact nav {
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 768px)
+{
+
+.page-section {
+  flex-direction: column;
+}
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
+@media screen and (max-width: 575px) {
+
+.page-section {
+  flex-direction: column;
+}}
