@@ -10,7 +10,8 @@ A simple CSS and HTML portfolio website to give potential employers a taster of 
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to the viewport
 
 ## Functionality Demo
-Watch these videos to see how to explore this portfolio
+Watch this GIF to see how to explore the portfolio
+![Portfolio-demo](https://user-images.githubusercontent.com/121969930/221103518-f0a9a17f-ab44-4f1c-8dce-7fe5569a02a1.gif)
 
 ## Deployed link:
 GitHub pages: https://ke-heslop.github.io/simply-divine/
